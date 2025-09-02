@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  overflow-x: hidden; 
+}
+
+.bg_dark {
+    background-color: #0C0D12;
+
+}
+
+
+/*NAVBAR STYLING*/
+.navbar-area {
+   
+    color: white;
+    font-size: 16px;
+    font-family: Bellota, sans-serif;
+    
+}
+
+.container {
+    color: white;
+    font-size: 16px;
+    font-family: Bellota, sans-serif;
+    margin: 0px 21.2px;
+    padding: 0px 12px;
+}
+
+.navbar {
+     color: white;
+    font-size: 16px;
+    font-family: Bellota, sans-serif;
+}
+
+a.navbar-brand {
+    color: #000000;
+    font-size: 20px;
+    font-family: Bellota,sans-serif;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px 5px 100px;
+}
+
+.navbar-collapse {
+    color: white;
+    font-size: 16px;
+    font-family: Bellota,sans-serif;
+}
+
+ul.navbar {
+    color: white;
+    font-size: 16px;
+    font-family: Bellota, sans-serif;
+    margin: 0px 32.125px;
+}
+
+li.nav-item {
+    color: white;
+    font-size: 16px;
+    font-family: Bellota, sans-serif;
+    margin: 0px 33px 0px 0px;
+    padding: 0px 33px 0px 0px;
+}
+
+div.others-option {
+    color: white;
+    font-size: 16px;
+    font-family: Bellota, sans-serif;
+}
+
+hr{
+    color: #E1AA72;
+}
+
+.nav-item:hover {
+  color: #E1AA72; 
+
+}
+
+/*HERO SECTION*/
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  font-size: 16px;
+  font-family: Bellota, sans-serif;
+}
+
+/* First image: bottom-left aligned and visible */
+.hero-img-one {
+  bottom: 10%;
+  left: 0;
+  width: auto;
+  max-height: 90%;
+  object-fit: contain;
+  position: absolute;
+}
+
+/* Second image: centered horizontally */
+.hero-bg-shape {
+            left: 50%;
+            transform: translateX(-6%);
+}
+
+.hero-img-two {
+    right: 0;
+    position: absolute;
+    top: 100px;
+}
+
+
+
+h1 {
+  position: relative;
+  top: 100px;
+  
+}
+
+span.Aesthetic {
+  color: white;
+  font-size: 128px;
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+  display: block;
+  height: 130px;
+
+}
+
+span.Joy-Of {
+  font-size: 96px;
+  font-family: "El Messiri", sans-serif;
+  text-align: right;
+  display: block;
+  margin-top: 30px;
+  margin-right: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+span.Delicious {
+  display: flex;
+  font-size: 180px;
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+  margin-top: 80px;
+  color: #E1AA72;
+  line-height: 1;
+  margin-left: 250px;  
+}
+
+span.tagline {
+  display: block;
+  font-size: 64px;
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+ 
+  text-align: center;  
+}
+
+/* DE and US – solid peach */
+.left-part,
+.right-part {
+  color: #E1AA72;
+  -webkit-text-stroke: 2px white;
+}
+
+/* LICIO – white outline */
+.middle-part {
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  
+  font-weight: bold;
+}
+
+.hero-bg {
+  position: absolute;
+  left: 50.5%;
+  transform: translateX(-50%);
+  z-index: -1;
+  background-image: url(hero-img-2.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  bottom: 45px;
+  height: 370px;
+  width: 520px;
+}
+
+/* Feature section */
+
+.feature-card-wrap {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  gap: 30px; 
+  padding: 0 20px;
+}
+
+.feature-card {
+  flex: 1 1 22%; 
+
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  min-width: 250px; 
+}
+
+
+.bg-cod, .pt-130, .pb-100 {
+  background-color: #12131B;
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+.fs-26 {
+  color: white;
+  font-size: 26px;
+  font-family: "El Messiri", sans-serif;
+  margin: 32px 0px 10px;
+}
+
+.fw-bold {
+  color: #D2D2D2;
+  font-size: 16px;
+  font-family: Bellota, sans-serif;
+  margin: 0px 0px 18px;
+  padding: 0px 60px 0px 0px;
+}
+
+.link-style-one {
+  color: #FFFFFF40;
+  font-size: 18px;
+  font-family: Bellota, sans-serif;
+
+}
+
+.link-style-one:hover {
+  color: #E1AA72;
+}
+
+.feature-card::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 300px; /* or 100% if you want it full height */
+  background-color: rgba(255, 248, 241, 0.1); /* soft peach tone */
+  transform: translateY(-50%);
+}
+
+
+/*about styling*/
+
+.about-wrap {
+  position: relative;
+  min-height: 600px; /* or whatever height is needed */
+}
+
+
+.about-shape {
+  right: 0;
+    position: absolute;
+    top: 100px;
+}
+
+.section-bg-shape {
+  position: absolute; /* Needed for positioning */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%; /* Make sure the parent has height */
+  background-image: url('shape-5.webp');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: contain;
+  z-index: -1;
+  pointer-events: none; /* Optional: make it non-clickable */
+}
+
+.about-bg {
+  background-image: url(about-img-1.webp);
+  height: 830px;
+}
+
+.bg-f{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.about-content {
+  padding-top: 0px;
+  margin-top: -130px; /* pulls content up */
+}
+
+.section-title {
+  color: white;
+  font-size: 64px;
+  font-family: "El Messiri", sans-serif;
+  margin: 0px 0px 18px;
+  padding: 0px 100px 0px 0px;
+  top: 2px;
+}
+
+p.fs-xxl-18 {
+
+  color: white;
+  font-size: 18px;
+  font-family: Bellota, sans-serif;
+  margin: 0px 0px 15px;
+}
+
+a.btn.style-one {
+  color: white;
+  font-size: 20px;
+  font-family: Bellota, sans-serif;
+  background-color: #E1AA72;
+  margin: 46px 0px 0px;
+  padding: 15px 37px;
+  border-radius: 50px;
+}
+
+
+/*Recipe section*/
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.recipe-promo-img {
+  position: relative;
+  z-index: 3;
+}
+
+
+.recipe-wrap {
+  color: white;
+  font-size: 16px;
+  font-family: Bellota, sans-serif;
+  background-color: #12131B;
+  padding: 130px 0px 100px;
+  
+}
+
+.recipe-shape-one,
+.recipe-shape-two {
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 400px; /* or 450px depending on your preference */
+  object-fit: contain;
+  z-index: 1;
+}
+
+.recipe-shape-one {
+  z-index: 0;
+  left: 0;
+}
+
+.recipe-shape-two {
+  right: 0;
+}
+
+div.col-xl-7 {
+  color: white;
+  font-size: 16px;
+  font-family: Bellota, sans-serif;
+  padding: 0px 12px 0px 76.8px;
+}
+
+.recipe-menu-wrapper {
+  color: white;
+  font-size: 16px;
+  font-family: Bellota, sans-serif;
+  margin: 0px 0px 0px -30px;
+}
+
+.filter-recipe {
+  margin-bottom: 74px;
+}
+
+.nav-item {
+  margin-right: 13px;
+}
+
+.btn.style-two {
+  padding: 10px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* subtle border */
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Bellota", sans-serif;
+  font-size: 16px;
+  border-radius: 999px; /* pill shape */
+  transition: all 0.3s ease;
+}
+
+/* Hover & Active */
+.btn.style-two:hover,
+.btn.style-two:focus,
+.btn.style-two.active {
+  background: linear-gradient(145deg, #e1aa72, #f1bf85);
+  color: #000;
+  border-color: #e1aa72;
+}
+
+.recipe-card{
+  color: white;
+  font-size: 16px;
+  font-family: Bellota, sans-serif;
+  margin: 0px 0px 38px;
+}
+
+.menu-thumb {
+  width: 130px; /* adjust as needed */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recipe-info {
+  width: calc(100% -185px);
+  margin-left: 20px;
+}
+
+.recipe-title {
+  margin-bottom: 29px;
+  position: relative;
+  z-index: 1;
+}
+
+.price {
+  color: #E1AA72;
+  font-weight: bold;
+}
+
+.tab-pane {
+  padding-left: 50px;
+}
+
+
+.team {
+  padding-left: 5px;
+  padding-top:80px ;  
+}
+
+.card-title {
+  text-align: start;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Bellota, sans-serif;
+
+}
+
+.text-muted1 {
+  text-align: start;
+  color: white;
+  font-size: 15px;
+  font-family: Bellota, sans-serif;
+}
+
+
+.carousel-btn {
+  width: 45px;
+  height: 45px;
+  background-color: #26262a; /* Dark background */
+  color: #fff; /* White arrow */
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.carousel-btn:hover {
+  background-color: #3a3a3a; /* Optional hover */
+}
+
+.carousel-btn i {
+  font-size: 1.2rem; /* Size of the arrow */
+}
+
+.footer-wrap{
+  color: white;
+  font: 16px Bellota, sans-serif;
+  background-color: #12131B;
+  padding: 130px 0px 0px;
+}
+
+.footer-top {
+  margin-top: 150px
+
+}
+
+.subscribe-form button {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: #E1AA72; /* Orange shade */
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe-form input {
+  background-color: #2e2a2a26;
+  border: 1px solid #ffffff55;
+  padding: 0 20px;
+  border-radius: 30px;
+  height: 60px;
+}
+
+
+/* Reset bullet and margin */
+
+.footer-widget {
+  top: 50px;
+  bottom: 50px;
+}
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-widget-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.footer-menu li {
+  margin-bottom: 12px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.footer-menu li a {
+  color: #ccc;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 20px;
+  display: inline-block;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.footer-menu li a::before {
+  content: "\f105"; /* Font Awesome 'angle-right' icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #E1AA72; /* Optional: your brand highlight color */
+  font-size: 12px;
+}
+
+.footer-menu li a:hover {
+  color: #fff;
+  padding-left: 25px;
+}
+
+
+/* Optional: override Bootstrap's primary if needed */
+.text-primary {
+  color: #E1AA72 !important;
+}
+
+.working-hours span {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.working-hours li span:nth-child(2) {
+  color: white; /* second span (time) */
+}
+
+/* Footer bottom background */
+.footer-bottom {
+  background-color: #111; /* Dark background */
+  padding: 20px 0;
+  
+}
+
+/* Copyright text */
+.footer-bottom p {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.footer-bottom a {
+  color: #E1AA72;
+  text-decoration: underline;
+}
+
+.footer-bottom a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Social icons */
+.social-profile {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.social-profile li {
+  list-style: none;
+}
+
+.social-profile li a {
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  color: #E1AA72;
+  text-decoration: none;
+  background-color: #333;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-profile li a:hover {
+  background-color: #E1AA72;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
